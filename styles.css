@@ -1,0 +1,91 @@
+body {
+    background-image: url('https://source.unsplash.com/random/1600x900');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.progress {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    line-height: 30px; /* Center the text vertically */
+    transition: width 0.5s ease;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
